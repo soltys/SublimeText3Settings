@@ -1,0 +1,19 @@
+[
+    { "keys": ["ctrl+w"], "command": "expand_region" },
+    {
+      "keys": ["ctrl+shift+w"],
+      "command": "expand_region",
+      "args": {"undo": true},
+      "context": [{ "key": "expand_region_soft_undo" }]
+    },
+    { "keys": ["ctrl+super+s"], "command": "save_all"},
+    { "keys": ["ctrl+s"], "command": "save"},
+    { "keys": ["alt+w"], "command": "close"},
+    { "keys": ["ctrl+super+up"], "command": "column_select", "args": {"by": "lines", "forward": false}},
+    { "keys": ["ctrl+super+down"], "command": "column_select", "args": {"by": "lines", "forward": true}},
+    { "keys": ["ctrl+super+pageup"], "command": "column_select", "args": {"by": "pages", "forward": false}},
+    { "keys": ["ctrl+super+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
+    { "keys": ["ctrl+super+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
+    { "keys": ["ctrl+super+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
+    { "keys": ["f2"], "command": "side_bar_rename"}
+]

@@ -1,0 +1,21 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"Better CoffeeScript",
+		"Case Conversion",
+		"Column Select",
+		"Commando",
+		"ExpandRegion",
+		"Git",
+		"Handlebars",
+		"HTMLBeautify",		
+		"Javascript Beautify",
+		"Markdown Extended",
+		"Package Control",
+		"SideBarEnhancements"
+	]
+}
