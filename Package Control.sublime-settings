@@ -3,11 +3,12 @@
 	[
 	],
 	"installed_packages":
-	[		
+	[
 		"Better CoffeeScript",
 		"Case Conversion",
 		"Color Highlighter",
-		"Column Select",		
+		"Column Select",
+		"EditorConfig",
 		"ExpandRegion",
 		"FindKeyConflicts",
 		"Git",
@@ -15,7 +16,7 @@
 		"HTMLBeautify",
 		"Javascript Beautify",
 		"JavaScriptNext - ES6 Syntax",
-		"Markdown Extended",		
+		"Markdown Extended",
 		"Package Control",
 		"SideBarEnhancements",
 		"Theme - Brogrammer"

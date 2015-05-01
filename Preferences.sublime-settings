@@ -1,7 +1,16 @@
 {
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"word_wrap": false
+    "bold_folder_labels": true,
+    "caret_style": "phase",
+    "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+    "fade_fold_buttons": false,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "translate_tabs_to_spaces": true,
+    "word_wrap": false,
+    "tab_size": 4
 }

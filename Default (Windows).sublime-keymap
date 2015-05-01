@@ -15,5 +15,15 @@
     { "keys": ["ctrl+super+pagedown"], "command": "column_select", "args": {"by": "pages", "forward": true}},
     { "keys": ["ctrl+super+home"], "command": "column_select", "args": {"by": "all", "forward": false}},
     { "keys": ["ctrl+super+end"], "command": "column_select", "args": {"by": "all", "forward": true}},
-    { "keys": ["f2"], "command": "side_bar_rename"}
+    { "keys": ["ctrl+shift+c", "ctrl+shift+s"], "command": "convert_to_snake"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+c"], "command": "convert_to_camel"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+p"], "command": "convert_to_pascal"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+d"], "command": "convert_to_dot"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+h"], "command": "convert_to_dash"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+w"], "command": "convert_to_separate_words"},
+    { "keys": ["ctrl+shift+c", "ctrl+shift+/"], "command": "convert_to_slash"},
+    { "keys": ["f2"], "command": "side_bar_rename"},
+    { "keys": ["ctrl+k", "ctrl+c"], "command": "close_all"},
+    {"keys": ["alt+c"], "command": "insert", "args": {"characters": "ć"}},
+    {"keys": ["alt+o"], "command": "insert", "args": {"characters": "ó"}}
 ]
